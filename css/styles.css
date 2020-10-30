@@ -1,0 +1,194 @@
+             p1 {}
+ 
+ .navbar {
+     font-size: 15px;
+     font-weight: 100;
+     color: #2e266f;
+ }
+ 
+ body {
+     width: 100%;
+     background-color: #f8fdff;
+     background: linear-gradient(to right, #f8fdff 61%, hsl(30, 0%, 10%) 50%, #ffaf00 60%, #ffaf00 60%);
+     font-family: sans-serif;
+ }
+ 
+ .custom-nav-item-active {
+     /* Style for "Home" */
+     color: #2e266f !important;
+     font-weight: 600;
+ }
+ 
+ .custom-nav-item {
+     /* Style for "Home" */
+     color: #2e266f !important;
+     font-family: sans-serif;
+     font-size: 14px;
+     margin: 0 33px;
+     line-height: 19px;
+ }
+ 
+ .profile-name {
+     /* Style for "Adil" */
+     color: #ffffff !important;
+     font-family: sans-serif;
+     font-size: 16px;
+     font-weight: bolder;
+     line-height: 19px;
+ }
+ 
+ @media only screen and (max-device-width:500px) {
+     .profile-name {
+         color: black !important;
+     }
+ }
+ 
+ .btn {
+     background-image: url("go.png");
+     position: absolute;
+ }
+ 
+ .custom-search {
+     width: 63%;
+     margin-top: -15px;
+     left: -7px;
+     color: #2e266f;
+     font-size: 37px;
+     font-weight: 600;
+     position: absolute;
+     top: 49%;
+     left: 4%;
+     height: 200px;
+     width: 550px;
+ }
+ 
+ @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+     .custom-search {
+         /* STyles for Smaill Devices */
+         width: 63%;
+         margin-top: -15px;
+         left: -7px;
+         color: #2e266f;
+         font-size: 15px;
+         font-weight: 600;
+         position: absolute;
+         top: 45%;
+         left: 4%;
+         height: 120px;
+         width: 200px;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+     .custom-search {
+         /* STyles for Smaill Devices */
+         width: 63%;
+         margin-top: -15px;
+         left: -7px;
+         color: #2e266f;
+         font-size: 25px;
+         font-weight: 600;
+         position: absolute;
+         top: 49%;
+         left: 4%;
+         height: 200px;
+         width: 300px;
+     }
+ }
+ 
+ .lettuce img {
+     position: absolute;
+     top: 7%;
+     right: 17%;
+     height: 440px;
+     width: 350px;
+ }
+ 
+ @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+     .lettuce img {
+         position: absolute;
+         top: 7%;
+         right: 20%;
+         height: 150px;
+         width: 90px;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+     .lettuce img {
+         /* STyles for Smaill Devices */
+         position: absolute;
+         top: 7%;
+         left: 59%;
+         height: 490px;
+         width: 150px;
+     }
+ }
+ 
+ .wings img {
+     position: absolute;
+     top: 15%;
+     right: 9%;
+     height: 600px;
+     width: 600px;
+ }
+ 
+ @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+     .wings img {
+         position: absolute;
+         top: 10%;
+         right: 9%;
+         height: 200px;
+         width: 200px;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+     .wings img {
+         /* STyles for Smaill Devices */
+         position: absolute;
+         top: 13%;
+         left: 32%;
+         height: 500px;
+         width: 500px;
+     }
+ }
+ 
+ .lobar img{
+     position: absolute;
+     top: 95%;
+     right: 75%;
+     height: 45px;
+     width: 400px;
+ }
+ @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .lobar img {
+        position: absolute;
+        top: 90%;
+        right: 59%;
+        height: 20px;
+        width: 200px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .lobar img {
+        /* STyles for Smaill Devices */
+        position: absolute;
+        top: 83%;
+        right: 60%;
+        height: 40px;
+        width: 500px;
+    }
+}
+.ping img{
+    height: 40px;
+    width: 25px;
+    left: 1%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .ping img {
+      
+        height: 20px;
+        width: 15px;
+    }
+}
